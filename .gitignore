@@ -1,0 +1,10 @@
+# do not commit game binaries / large blobs
+*.apk
+*.xapk
+*.apks
+*.aab
+*.obb
+*.so
+*.unity3d
+global-metadata.dat
+node_modules/

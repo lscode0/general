@@ -1,0 +1,114 @@
+file: base/assets/bin/Data/Managed/Metadata/global-metadata.dat
+header bytes: 256
+version: 31 magic: 0xfab11baf
+string heap bytes: 1891576
+string literals: 22332
+types: 14627
+methods: 96699
+fields: 64729
+properties: 16432
+parameters: 102959
+events: 432
+images: 100 assemblies: 94.11764705882354
+types[0..3]: <Module> | <>f__AnonymousType0`3 | <>f__AnonymousType1`2 | <>f__AnonymousType2`2
+assemblies:
+  [0] Assembly-CSharp.dll  types=3337 typeStart=0
+  [1] mscorlib.dll  types=1689 typeStart=3337
+  [2] UnityEngine.UIElementsModule.dll  types=1549 typeStart=5026
+  [3] System.Xml.dll  types=669 typeStart=6575
+  [4] Unity.RenderPipelines.Core.Runtime.dll  types=719 typeStart=7244
+  [5] UnityEngine.CoreModule.dll  types=929 typeStart=7963
+  [6] System.dll  types=711 typeStart=8892
+  [7] Assembly-CSharp-firstpass.dll  types=735 typeStart=9603
+  [8] System.Data.dll  types=238 typeStart=10338
+  [9] System.Core.dll  types=697 typeStart=10576
+  [10] Unity.TextMeshPro.dll  types=193 typeStart=11273
+  [11] Newtonsoft.Json.dll  types=308 typeStart=11466
+  [12] Microsoft.CSharp.dll  types=230 typeStart=11774
+  [13] UnityEngine.TextCoreTextEngineModule.dll  types=109 typeStart=12004
+  [14] UnityEngine.UI.dll  types=201 typeStart=12113
+  [15] Facebook.Unity.dll  types=203 typeStart=12314
+  [16] UnityEngine.IMGUIModule.dll  types=54 typeStart=12517
+  [17] UnityEngine.Purchasing.Stores.dll  types=246 typeStart=12571
+  [18] Mono.Security.dll  types=85 typeStart=12817
+  [19] UnityEngine.PropertiesModule.dll  types=165 typeStart=12902
+  [20] UnityEngine.AndroidJNIModule.dll  types=45 typeStart=13067
+  [21] UniWebView-CSharp.dll  types=87 typeStart=13112
+  [22] websocket-sharp.dll  types=64 typeStart=13199
+  [23] UnityEngine.dll  types=1 typeStart=13263
+  [24] GameAnalyticsSDK.dll  types=37 typeStart=13264
+  [25] Firebase.App.dll  types=41 typeStart=13301
+  [26] Unity.Services.Analytics.dll  types=63 typeStart=13342
+  [27] UnityEngine.ParticleSystemModule.dll  types=65 typeStart=13405
+  [28] System.Drawing.dll  types=11 typeStart=13470
+  [29] UnityEngine.AnimationModule.dll  types=46 typeStart=13481
+  [30] UnityEngine.Purchasing.dll  types=83 typeStart=13527
+  [31] UnityEngine.TextCoreFontEngineModule.dll  types=25 typeStart=13610
+  [32] UnityEngine.InputForUIModule.dll  types=48 typeStart=13635
+  [33] System.Numerics.dll  types=13 typeStart=13683
+  [34] UnityEngine.HierarchyCoreModule.dll  types=44 typeStart=13696
+  [35] UnityEngine.UnityWebRequestModule.dll  types=19 typeStart=13740
+  [36] System.Xml.Linq.dll  types=38 typeStart=13759
+  [37] UnityEngine.PhysicsModule.dll  types=26 typeStart=13797
+  [38] Unity.Services.Core.Internal.dll  types=66 typeStart=13823
+  [39] Stat Curves.dll  types=43 typeStart=13889
+  [40] Unity.Collections.dll  types=89 typeStart=13932
+  [41] UnityEngine.Purchasing.Security.dll  types=21 typeStart=14021
+  [42] UnityEngine.UIModule.dll  types=11 typeStart=14042
+  [43] UnityEngine.XRModule.dll  types=32 typeStart=14053
+  [44] Firebase.Messaging.dll  types=29 typeStart=14085
+  [45] UnityEngine.TextRenderingModule.dll  types=18 typeStart=14114
+  [46] Firebase.Platform.dll  types=39 typeStart=14132
+  [47] UnityEngine.AudioModule.dll  types=23 typeStart=14171
+  [48] Unity.Burst.dll  types=29 typeStart=14194
+  [49] UnityEngine.AccessibilityModule.dll  types=21 typeStart=14223
+  [50] UnityEngine.Physics2DModule.dll  types=14 typeStart=14244
+  [51] UnityEngine.InputLegacyModule.dll  types=13 typeStart=14258
+  [52] UnityEngine.TerrainModule.dll  types=14 typeStart=14271
+  [53] UnityEngine.TilemapModule.dll  types=15 typeStart=14285
+  [54] UnityEngine.UnityAnalyticsModule.dll  types=14 typeStart=14300
+  [55] UnityEngine.UnityAnalyticsCommonModule.dll  types=36 typeStart=14314
+  [56] UnityEngine.VFXModule.dll  types=15 typeStart=14350
+  [57] UnityEngine.SharedInternalsModule.dll  types=29 typeStart=14365
+  [58] Firebase.Analytics.dll  types=11 typeStart=14394
+  [59] UnityEngine.SubsystemsModule.dll  types=16 typeStart=14405
+  [60] UnityEngine.DirectorModule.dll  types=9 typeStart=14421
+  [61] UnityEngine.AssetBundleModule.dll  types=7 typeStart=14430
+  [62] UnityEngine.VideoModule.dll  types=16 typeStart=14437
+  [63] Unity.Services.Core.Registration.dll  types=7 typeStart=14453
+  [64] UnityEngine.JSONSerializeModule.dll  types=2 typeStart=14460
+  [65] UnityEngine.UnityWebRequestAssetBundleModule.dll  types=4 typeStart=14462
+  [66] UnityEngine.UnityWebRequestTextureModule.dll  types=6 typeStart=14466
+  [67] UnityEngine.ImageConversionModule.dll  types=2 typeStart=14472
+  [68] UnityEngine.InputModule.dll  types=5 typeStart=14474
+  [69] UnityEngine.UnityWebRequestWWWModule.dll  types=2 typeStart=14479
+  [70] UnityEngine.VRModule.dll  types=3 typeStart=14481
+  [71] UnityEngine.AIModule.dll  types=4 typeStart=14484
+  [72] UnityEngine.CrashReportingModule.dll  types=2 typeStart=14488
+  [73] UnityEngine.ScreenCaptureModule.dll  types=3 typeStart=14490
+  [74] UnityEngine.GridModule.dll  types=2 typeStart=14493
+  [75] UnityEngine.SpriteShapeModule.dll  types=2 typeStart=14495
+  [76] Unity.Mathematics.dll  types=13 typeStart=14497
+  [77] Purchasing.Common.dll  types=9 typeStart=14510
+  [78] Unity.Services.Core.Configuration.dll  types=13 typeStart=14519
+  [79] Unity.Services.Core.Scheduler.dll  types=9 typeStart=14532
+  [80] Facebook.Unity.Settings.dll  types=6 typeStart=14541
+  [81] Unity.Services.Core.dll  types=12 typeStart=14547
+  [82] Unity.Services.Core.Device.dll  types=8 typeStart=14559
+  [83] UnityEngine.Purchasing.SecurityCore.dll  types=4 typeStart=14567
+  [84] System.Runtime.Serialization.dll  types=5 typeStart=14571
+  [85] Unity.MemoryProfiler.dll  types=4 typeStart=14576
+  [86] UnityEngine.Purchasing.WinRTCore.dll  types=4 typeStart=14580
+  [87] UnityEngine.UnityConsentModule.dll  types=4 typeStart=14584
+  [88] System.Configuration.dll  types=10 typeStart=14588
+  [89] Unity.Services.Core.Telemetry.dll  types=5 typeStart=14598
+  [90] UnityEngine.IdentifiersModule.dll  types=2 typeStart=14603
+  [91] UnityEngine.Purchasing.AppleCore.dll  types=2 typeStart=14605
+  [92] UnityEngine.Purchasing.AppleMacosStub.dll  types=2 typeStart=14607
+  [93] UnityEngine.Purchasing.AppleStub.dll  types=2 typeStart=14609
+  [94] Facebook.Unity.Android.dll  types=2 typeStart=14611
+  [95] Unity.Services.Core.Environments.Internal.dll  types=2 typeStart=14613
+  [96] Unity.Services.Core.Threading.dll  types=2 typeStart=14615
+  [97] UnityEngine.Purchasing.WinRTStub.dll  types=2 typeStart=14617
+  [98] Unity.Burst.Unsafe.dll  types=3 typeStart=14619
+  [99] __Generated  types=5 typeStart=14622

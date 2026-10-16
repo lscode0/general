@@ -1,0 +1,557 @@
+struct CmdAdmin {
+    field value__
+    field NULL
+    field QSSet
+    field Dialog
+    field ReloadData
+    field ReloadShop
+    field ReloadQuest
+    field ReloadMongo
+    field ReloadGlobalLoot
+    field QSInfo
+    field ApopEdit
+}
+---
+struct CmdArea {
+    field value__
+    field NULL
+    field Join
+    field Remove
+    field List
+    field WarSync
+    field MatchState
+    field ExitInstance
+    field DynamicScale
+    field StartSpeedrun
+    field EndSpeedrun
+}
+---
+struct CmdAudio {
+    field value__
+    field NULL
+    field Play2DClip
+    field Play3DClip
+}
+---
+struct CmdBagSpace {
+    field value__
+    field NULL
+    field PurchaseIndividual
+    field PurchaseBundle
+    field BagSpaceUpdate
+}
+---
+struct CmdBank {
+    field value__
+    field NULL
+    field LoadItems
+    field TransferItem
+    field PurchaseSlot
+    field LoadAllItems
+}
+---
+struct CmdCell {
+    field value__
+    field NULL
+    field Join
+    field Add
+    field Remove
+    field Teleport
+    field Score
+    field SoundTrackUpdate
+    field TimerPause
+    field TimerStart
+    field TimerStop
+    field TimerUnpause
+}
+---
+struct CmdChannel {
+    field value__
+    field NULL
+    field Join
+    field Add
+    field Remove
+}
+---
+struct CmdChat {
+    field value__
+    field NULL
+    field Multi
+    field Whisper
+    field Party
+    field Guild
+    field NPC
+}
+---
+struct CmdClass {
+    field value__
+    field NULL
+    field Add
+    field Equip
+    field CustomSpells
+    field SpellCooldown
+}
+---
+struct CmdCombat {
+    field value__
+    field NULL
+    field SpellRequest
+    field SpellTrigger
+    field SpellCancel
+    field Spell
+    field EffectPulse
+    field Item
+    field IAO
+    field MachineSpell
+    field EffectRemove
+    field ResetCD
+    field AuraUpdate
+}
+---
+struct CmdCommand {
+    field value__
+    field NULL
+    field Admin
+    field Join
+    field VoteKick
+    field Help
+    field Get
+}
+---
+struct CmdDailyTask {
+    field value__
+    field NULL
+    field Info
+}
+---
+struct CmdEntity {
+    field value__
+    field NULL
+    field AddGoldXP
+    field LevelUp
+    field Update
+    field PlayerRespawn
+    field Unused
+    field Class
+    field MCUpdate
+    field GoldUpdate
+    field BitFlagUpdate
+    field AssetOverride
+    field Customize
+    field DataSync
+    field KillSelf
+    field TransferMap
+    field AssetUpdate
+    field PortraitUpdate
+    field TitleUpdate
+    field LoadBadges
+    field PetEquip
+    field PetUnequip
+    field RankUp
+    field AFK
+    field Disconnect
+    field Gender
+    field PetInteract
+    field WeaponUpdate
+    field ToolUpdate
+    field TradeSkillAddXP
+    field TradeSkillLevelUp
+    field CapstoneBarFill
+    field EquipPvpActions
+    field GloryXpUpdate
+    field Sheathe
+    field Spectate
+}
+---
+struct CmdFriend {
+    field value__
+    field NULL
+    field Request
+    field Add
+    field Delete
+    field List
+    field Summon
+    field Goto
+    field Added
+}
+---
+struct CmdGuild {
+    field value__
+    field NULL
+    field Join
+    field Info
+    field Leave
+    field Invite
+    field Update
+    field ChangeRole
+    field GuildMemberStatus
+    field NameChange
+    field TagChange
+    field MOTDUpdate
+    field LevelUp
+    field BuyPower
+    field PowerActivated
+    field UpdateTax
+    field GoldXpInfo
+    field LeaderboardEntries
+}
+---
+struct CmdHousing {
+    field value__
+    field NULL
+    field HouseItemAdd
+    field HouseItemMove
+    field HouseItemRemove
+    field HouseItemClearAll
+    field HouseJoin
+    field HouseSave
+    field HouseExit
+    field HouseData
+    field HouseAdd
+    field HouseUpdate
+    field HouseSaveExit
+    field HouseForceExit
+    field HouseQuest
+    field HouseItemList
+    field HouseItemForceRemove
+    field MapPreview
+    field HouseItems
+    field BuildData
+    field RoleUpdate
+    field InventoryItemAdd
+    field InventoryItemUpdate
+    field InventoryItemRemove
+    field HouseItemUpgrade
+    field RevertModified
+    field HouseLike
+    field HouseUnlike
+}
+---
+struct CmdItem {
+    field value__
+    field NULL
+    field Equip
+    field Unequip
+    field Update
+    field Remove
+    field Add
+    field Use
+    field Load
+    field Claim
+    field OpenLootBox
+    field DailyReward
+    field DustLookBoxItem
+    field EquipBest
+    field Infuse
+    field Extract
+    field Log
+    field InfuseResponse
+    field ExtractResponse
+    field ReloadInventory
+    field ModifierReroll
+    field ModifierRerollResponse
+    field ModifierRerollConfirm
+    field ModifierRerollConfirmResponse
+}
+---
+struct CmdLeaderboard {
+    field value__
+    field NULL
+    field Refresh
+    field PlayerScoreUpdate
+}
+---
+struct CmdLiveEvent {
+    field value__
+    field NULL
+    field CommandAdd
+    field EditorData
+    field DataAddUpdate
+    field Play
+    field CommandAddBatch
+    field Stop
+    field Data
+}
+---
+struct CmdLoot {
+    field value__
+    field NULL
+    field AddDropBag
+    field RemoveDropItem
+    field GetDropItem
+    field GetLootBag
+    field LootAll
+}
+---
+struct CmdMachine {
+    field value__
+    field NULL
+    field TransferPad
+    field Update
+    field Click
+    field Enter
+    field Exit
+    field Cast
+    field Animation
+    field AnimatorLayerWeight
+    field AnimatorParameter
+    field AreaFlag
+    field Trigger
+    field CTState
+    field Collision
+    field HarpoonSync
+    field HarpoonFire
+    field ListenerUpdate
+    field ResourceChannel
+    field ResourceCollect
+    field ResourceDespawn
+    field ResourceDrop
+    field ResourceInteract
+    field ResourceInterrupt
+    field ResourceSpawn
+    field ResourceTrigger
+    field ResourceUsageUpdate
+    field CountUpdate
+    field Cinematic
+    field Dialogue
+}
+---
+struct CmdMail {
+    field value__
+    field NULL
+    field Box
+    field Send
+    field Receive
+    field Delete
+    field Favorite
+    field Redeem
+    field Seen
+    field MailSettingUpdate
+}
+---
+struct CmdMerge {
+    field value__
+    field NULL
+    field Merge
+    field MergeShopLoad
+    field Claim
+    field BuyOut
+    field Speedup
+    field Add
+    field Remove
+}
+---
+struct CmdMisc {
+    field value__
+    field NULL
+    field Notify
+    field W6vS2MD75O
+    field ReportError
+    field ServerEvent
+}
+---
+struct CmdMove {
+    field value__
+    field NULL
+    field Full
+    field Synch
+    field CollisionSync
+    field Jump
+}
+---
+struct CmdNPC {
+    field value__
+    field NULL
+    field Despawn
+    field Spawn
+    field DialogueStart
+    field DialogueEnd
+    field TurnTo
+    field TeamEvent
+    field Animation
+    field Baited
+    field Behavior
+    field Notify
+}
+---
+struct CmdNpcMove {
+    field value__
+    field NULL
+    field Path
+    field Speed
+    field Stop
+    field StopSync
+}
+---
+struct CmdParty {
+    field value__
+    field NULL
+    field Invite
+    field Join
+    field Remove
+    field Promote
+    field List
+    field AreaCreate
+    field Goto
+    field VoteKickStart
+    field VoteKickChoice
+    field VoteKickEnd
+    field Privacy
+    field Disconnect
+    field Reconnect
+}
+---
+struct CmdPlayer {
+    field value__
+    field NULL
+    field ProductOfferSet
+    field TimedChoice
+    field TimedChoiceCancel
+    field JoinQueue
+    field LeaveQueue
+    field QueueStatus
+    field PvPStats
+    field PvPRecords
+    field ActionSlot
+}
+---
+struct CmdPvP {
+    field value__
+    field NULL
+    field PvPToggle
+    field DuelChallenge
+    field DuelAccept
+    field DuelCountdown
+    field DuelStart
+    field DuelComplete
+    field DuelForfeit
+    field PvPScore
+    field CapturePoint
+    field CapturePointTick
+    field SoundTrackCountdown
+    field MatchStart
+    field MatchEnd
+    field MatchLeave
+    field TimerStart
+    field FlagPlayers
+}
+---
+struct CmdQuest {
+    field value__
+    field NULL
+    field Load
+    field Accept
+    field Abandon
+    field Complete
+    field Progress
+    field Meta
+}
+---
+struct CmdResource {
+    field value__
+    field NULL
+    field BobberDespawn
+    field BobberSpawn
+    field FishCatch
+    field FishHook
+    field FishRelease
+}
+---
+struct CmdServerDaily {
+    field value__
+    field NULL
+    field Initialize
+}
+---
+struct CmdServerTools {
+    field value__
+    field NULL
+    field Teleport
+    field UpdatePosSpawn
+    field HijackSpawn
+    field AddSpawn
+    field DeleteSpawn
+    field AddNPC
+    field DeleteNPC
+    field EditNPC
+    field UpdatePathNPC
+    field DeletePathNPC
+    field ResUpdatePosSpawn
+    field ResHijackSpawn
+    field ResAddSpawn
+    field ResDeleteSpawn
+    field ResAddNPC
+    field ResDeleteNPC
+    field ResEditNPC
+    field ResUpdatePathNPC
+    field ResDeletePathNPC
+    field OpenInAdmin
+    field ResOpenInAdmin
+    field OpenApopAdmin
+    field UpdateRequirements
+    field ResUpdateRequirements
+    field AddMapEntity
+    field ResAddMapEntity
+    field DeleteMapEntity
+    field ResDeleteMapEntity
+    field UpdateMapEntity
+    field ResUpdateMapEntity
+    field OpenApops
+    field OpenNPCs
+    field GetMapAssets
+    field ResGetMapAssets
+    field GetFavoriteMapAssets
+    field ResGetFavoriteMapAssets
+    field UpdateNPCEvents
+    field ResUpdateNPCEvents
+    field GetAllMapAssets
+    field ResGetAllMapAssets
+    field GetSpell
+    field ResGetSpell
+    field SaveSpell
+    field ResSaveSpell
+    field DeleteSpell
+    field ResDeleteSpell
+    field GetMachineSpell
+    field ResGetMachineSpell
+    field SaveMachineSpell
+    field ResSaveMachineSpell
+    field DeleteMachineSpell
+    field ResDeleteMachineSpell
+    field CastMachineSpell
+    field ResCastMachineSpell
+    field GetEffect
+    field ResGetEffect
+    field SaveEffect
+    field ResSaveEffect
+    field DeleteEffect
+    field ResDeleteEffect
+    field DuplicateSpawn
+    field ResDuplicateSpawn
+    field GetAggroDebug
+    field ResGetAggroDebug
+}
+---
+struct CmdSheathing {
+    field value__
+    field NULL
+    field Sheathe
+    field Unsheathe
+}
+---
+struct CmdSystemPerformance {
+    field value__
+    field NULL
+    field Ping
+    field SessionPing
+}
+---
+struct CmdTrade {
+    field value__
+    field NULL
+    field Buy
+    field Sell
+    field ShopLoad
+    field BuyCollection
+}
+---
