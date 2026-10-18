@@ -36,25 +36,6 @@
     <PlatformTarget>x64</PlatformTarget>
     <OutputPath>bin\x64\Debug\</OutputPath>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|iPhone'">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\iPhone\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_IOS</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <PlatformTarget>ARM64</PlatformTarget>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|iPhone'">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\iPhone\Release\</OutputPath>
-    <DefineConstants>TRACE;UNITY_IOS</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <PlatformTarget>ARM64</PlatformTarget>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Apple">
       <HintPath>H:\Steam\steamapps\common\AdventureQuest3D\aq3d\AQ3D_Data\Managed\Apple.dll</HintPath>
